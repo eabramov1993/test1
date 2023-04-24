@@ -79,7 +79,7 @@
 
  .header {
     min-height: 740px;
-    background-image: url(/img/first_screen_bg.jpg);
+    background-image: url(../img/first_screen_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
  }

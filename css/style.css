@@ -302,5 +302,8 @@
     .about-flex-item:last-child {
        margin-bottom: 0;
     }
+    .project-h2 {
+      font-size: 34px;
+    }
 
  }

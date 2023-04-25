@@ -364,6 +364,7 @@
     letter-spacing: 0.05em;
     padding: 14px 30px;
     margin-top: 22px;
+    cursor: pointer;
  }
 
  .request-icon {

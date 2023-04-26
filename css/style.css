@@ -439,6 +439,15 @@
        grid-template-columns: repeat(2, 1fr);
        gap: 20px;
     }
+
+    .services {
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+
+    .services-grid-item {
+       width: 100%;
+    }
  }
 
  @media screen and (max-width:779px) {

@@ -395,7 +395,9 @@
 
  /* SERVICES */
 
- .services {}
+ .services {
+    margin-bottom: 150px;
+ }
 
  .services-h2 {
     text-align: center;
@@ -455,5 +457,44 @@
        grid-template-rows: repeat(4, 1fr);
        grid-template-columns: repeat(1, 1fr);
        padding-bottom: 15px;
+    }
+ }
+
+ /* portfolio  */
+
+ .portfolio {
+    margin-bottom: 150px;
+ }
+
+ .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 0;
+
+ }
+
+ 
+ @media screen and (max-width:1280px) {
+    .portfolio-grid {
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(4, 1fr);
+    }
+    .portfolio-img {
+      width:550px;
+    }
+
+ }
+
+
+ @media screen and (max-width:779px) {
+    .portfolio-grid {
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .portfolio-item{
+      margin-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
     }
  }

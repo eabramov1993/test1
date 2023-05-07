@@ -608,6 +608,11 @@
        margin-bottom: 35px;
 
     }
+
+    .partners_item:last-child {
+       margin: 0 auto;
+    }
+
  }
 
  .reviews {
@@ -628,7 +633,6 @@
  .reviews_grid_item {}
 
  .reviews_card {
-    max-width: 350px;
     background-color: #F7F7F7;
     padding: 30px;
     margin-bottom: 30px;
@@ -643,4 +647,26 @@
 
  .text_reviews_h4 span {
     color: var(--accent-color);
+ }
+
+
+ @media screen and (max-width:1280px) {
+    .reviews {
+       padding: 0 15px;
+    }
+
+    .reviews_grid {
+       grid-template-columns: repeat(2, 1fr);
+    }
+
+ }
+
+ @media screen and (max-width:779px) {
+    .reviews_grid {
+       grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reviews_card {
+       margin-bottom: 5px;
+    }
  }

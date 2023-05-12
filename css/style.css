@@ -301,6 +301,10 @@
     padding: 14px 30px;
     margin-top: 22px;
     cursor: pointer;
+    transition: 0.5s;
+ }
+ .request-btn:hover {
+   transform: scale(0.9);
  }
 
  .request-icon {

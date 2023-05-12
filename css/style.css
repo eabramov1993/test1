@@ -303,8 +303,9 @@
     cursor: pointer;
     transition: 0.5s;
  }
+
  .request-btn:hover {
-   transform: scale(0.9);
+    transform: scale(0.9);
  }
 
  .request-icon {
@@ -382,8 +383,9 @@
     cursor: pointer;
     transition: color 0.5s;
  }
+
  .question_h3:hover {
-   color: #c18989;
+    color: #c18989;
  }
 
  .question-p {
@@ -491,6 +493,11 @@
     margin-bottom: 25px;
     color: var(--gray-color);
     text-transform: uppercase;
+ }
+
+ .grid-item-h3-black a {
+    text-decoration: none;
+    color: inherit;
  }
 
  /* footer */

@@ -38,12 +38,16 @@
         <a href="#!"><i class="material-icons">grade</i> Услуги</a>
       </li>
       <li>
-        <a href="#!"><i class="material-icons">phone</i> Контакты</a>  
+        <a href="#!"><i class="material-icons">phone</i> Контакты</a>
       </li>
       <li><div class="divider"></div></li>
-      <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i>Закрыть</a></li>
+      <li>
+        <a class="sidenav-close" href="#!"
+          ><i class="material-icons">close</i>Закрыть</a
+        >
+      </li>
     </ul>
-    
+
     <header class="header">
       <div class="container">
         <div class="header__title">
@@ -130,6 +134,28 @@
       </div>
     </section>
 
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4 class="text-h4">Заголовок</h4>
+        <p class="text-p">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quaerat
+          porro sed reprehenderit iure maiores, eveniet ea molestias rerum totam
+          consequuntur laborum sit voluptas ipsam perferendis alias repellat,
+          nostrum dolorem. Ex blanditiis reprehenderit ullam deserunt obcaecati
+          vitae exercitationem deleniti in officia, architecto voluptate ad qui!
+          Provident eos beatae soluta minus explicabo nisi ullam quae, quisquam
+          eum dolor placeat, incidunt magni similique accusamus eligendi harum
+          natus nemo dolores necessitatibus corporis distinctio pariatur.
+          Inventore, repellendus neque eaque a, perspiciatis cum aut laudantium
+          temporibus corporis asperiores architecto accusantium nam. Ducimus,
+          aperiam? Adipisci temporibus molestias quod corporis, optio ipsum.
+          Tenetur repellat quisquam hic natus?
+        </p>
+      </div>
+      <div class="modal-footer"></div>
+    </div>
+
     <section class="request">
       <div class="container">
         <div class="request-flex">
@@ -141,10 +167,10 @@
           </div>
 
           <div class="request-flex-right">
-            <button class="request-btn">
+            <a class="request-btn modal-trigger" href="#modal1">
               <img src="img/.svg" alt="" class="request-icon" />
               ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>
